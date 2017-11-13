@@ -10,10 +10,6 @@ function findMatching (drivers, name) {
   
   
 function fuzzyMatch(drivers, name) {
-    return drivers.filter(
-      function(saNames) {
-        return saNames.
-        
-      })
+    
 }  
 

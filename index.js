@@ -8,13 +8,11 @@ function findMatching (drivers, name) {
     });
 }
   
-  
-function fuzzyMatch(drivers, name) {
-    function fuzzyMatch (drivers, name) {
-  let lengthOfName = name.length;
-  return list.filter(function (driverName) {
-    return driverName.slice(0, lengthOfName) === name;
+function fuzzyMatch (drivers, name) {
+    let lengthOfName = name.length;
+      return list.filter(function (driverName) {
+        return driverName.slice(0, lengthOfName) === name;
   });
-}
+
 }  
 
